@@ -3,9 +3,9 @@
     <folder>
       <name>TetraPulse.TournamentManager</name>
       <friendlyname>TournamentManager</friendlyname>
-      <foldername>TetraPulse.TournamentManager</foldername>
-      <modulename>TetraPulse.TournamentManager</modulename>
-      <description>A TournamentManager module</description>
+      <foldername>TournamentManager</foldername>
+      <modulename>TournamentManager</modulename>
+      <description>A Tournament Manager module</description>
       <version>01.00.00</version>
       <businesscontrollerclass>TetraPulse.Modules.TournamentManager.TournamentManagerController</businesscontrollerclass>
       <modules>
@@ -14,21 +14,21 @@
           <cachetime>0</cachetime>
           <controls>
             <control>
-              <src>DesktopModules/TetraPulse.TournamentManager/ViewTournamentManager.ascx</src>
+              <src>DesktopModules/TournamentManager/ViewTournamentManager.ascx</src>
               <type>View</type>
               <helpurl></helpurl>
             </control>
             <control>
               <key>Edit</key>
               <title>Edit Content</title>
-              <src>DesktopModules/TetraPulse.TournamentManager/EditTournamentManager.ascx</src>
+              <src>DesktopModules/TournamentManager/EditTournamentManager.ascx</src>
               <type>Edit</type>
               <helpurl></helpurl>
             </control>
             <control>
               <key>Settings</key>
               <title>TournamentManager Settings</title>
-              <src>DesktopModules/TetraPulse.TournamentManager/Settings.ascx</src>
+              <src>DesktopModules/TournamentManager/Settings.ascx</src>
               <type>Edit</type>
               <helpurl></helpurl>
             </control>
