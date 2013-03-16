@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}TetraPulse_TournamentManager] DROP CONSTRAINT [FK_{objectQualifier}TournamentManager_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}TetraPulse_TournamentManager] DROP CONSTRAINT [PK_{objectQualifier}TetraPulse_TournamentManager]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}TetraPulse_TournamentManager].[IX_{objectQualifier}TetraPulse_TournamentManager]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}TetraPulse_TournamentManager]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}TetraPulse_GetTournamentManagers]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}TetraPulse_GetTournamentManager]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}TetraPulse_AddTournamentManager]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}TetraPulse_UpdateTournamentManager]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}TetraPulse_DeleteTournamentManager]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
